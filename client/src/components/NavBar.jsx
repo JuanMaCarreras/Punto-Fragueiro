@@ -2,15 +2,19 @@ function NavBar () {
   return (
     <>
       <div>
-        <img src='https://www.pizzascordobapuntofragueiro.com.ar/imagenes/logo3sinfondo.png' alt='' />
+        <img
+          className='h-14 w-15'
+          src='https://www.pizzascordobapuntofragueiro.com.ar/imagenes/logo3sinfondo.png'
+          alt='logo'
+        />
       </div>
-      <div>
+      <nav>
         <ul>
           <li>Inicio</li>
           <li>Menu</li>
           <li>Ubicación</li>
         </ul>
-      </div>
+      </nav>
     </>
   )
 }
