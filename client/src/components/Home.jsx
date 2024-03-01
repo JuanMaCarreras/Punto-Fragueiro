@@ -5,9 +5,9 @@ function Home () {
     <>
       <NavBar />
 
-      <main calssName='bg-'>
-        <h1 calssName='text-'>Punto Fragueiro</h1>
-        <p>Un lugar con buena onda!</p>
+      <main className='bg-blue-800'>
+        <h1 className='text-6xl'>PizzeríaPunto Fragueiro</h1>
+        <p>Un lugar con buena onda</p>
       </main>
 
     </>
