@@ -5,8 +5,8 @@ function Home () {
     <>
       <NavBar />
 
-      <main className='bg-blue-800'>
-        <h1 className='text-6xl'>PizzeríaPunto Fragueiro</h1>
+      <main className='bg-blue-800 flex flex-col justify-center pl-11 h-96 '>
+        <h1 className='text-5xl'>Pizzería Punto Fragueiro</h1>
         <p>Un lugar con buena onda</p>
       </main>
 
