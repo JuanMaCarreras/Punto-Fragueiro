@@ -5,7 +5,11 @@ export default {
     './src/**/*.{js,jsx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      backgroundImage: {
+        mainImg: 'url(assets/pizza-humo.jpg)'
+      }
+    }
   },
   plugins: []
 }
