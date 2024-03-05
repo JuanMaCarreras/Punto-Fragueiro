@@ -9,7 +9,7 @@ function NavBar () {
             alt='logo'
           />
         </div>
-        <nav>
+        <nav >
           <ul className='flex  text-white space-x-6 pl-10'>
             <li>Inicio</li>
             <li>Menu</li>
