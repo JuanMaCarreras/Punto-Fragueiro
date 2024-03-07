@@ -1,18 +1,19 @@
+import Logo from '../assets/logo.png'
+
 function NavBar () {
   return (
     <>
-      <header className='fixed w-screen '>
-        <nav className='flex justify-center items-center bg-zinc-900 top-0 w-full'>
-          <div className=''>
+      <header className='fixed w-screen'>
+        <nav className='flex justify-center items-center bg-zinc-900 top-0 '>
+          <div className='pr-11'>
             <img
-              className='h-24 w-24'
-              src='https://www.pizzascordobapuntofragueiro.com.ar/imagenes/logo3sinfondo.png'
+              className='h-20 w-20'
+              src={Logo}
               alt='logo'
             />
           </div>
-        </nav>
-        <nav className=''>
-          <ul className='flex  text-white space-x-6 pl-10'>
+
+          <ul className='flex  text-white space-x-6 '>
             <li>Inicio</li>
             <li>Menu</li>
             <li>Ubicación</li>
