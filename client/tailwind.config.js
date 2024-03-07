@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        orange: '#f17808'
+      },
+
       backgroundImage: {
         mainImg: 'url(assets/pizza-humo.jpg)'
       }
