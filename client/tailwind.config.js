@@ -11,7 +11,9 @@ export default {
       },
 
       backgroundImage: {
-        mainImg: 'url(assets/pizza-humo.jpg)'
+        mainImg: 'url(assets/pizza-humo.jpg)',
+        menuBackground: 'url(assets/background-menu.jpg)'
+
       }
     }
   },
