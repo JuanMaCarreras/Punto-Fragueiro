@@ -3,9 +3,13 @@ function Menu () {
     <>
       <section className=''>
         <article className='h-screen bg-menuBackground '>
-          <ul>
-            <li>Menu</li>
-          </ul>
+          <h3>Menu</h3>
+          <h4>Pizzas</h4>
+          <div>
+            <ul>
+              <li>Menu</li>
+            </ul>
+          </div>
         </article>
       </section>
     </>
