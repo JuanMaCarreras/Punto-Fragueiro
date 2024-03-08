@@ -2,7 +2,7 @@ function Menu () {
   return (
     <>
       <section className=''>
-        <article className='border rounded-sm border-red-600'>
+        <article className='h-screen bg-menuBackground '>
           <ul>
             <li>Menu</li>
           </ul>
