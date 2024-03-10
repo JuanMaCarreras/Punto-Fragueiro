@@ -7,6 +7,10 @@ function Menu () {
           <h4>Pizzas</h4>
           <div>
             <ul>
+              <li>Pizza con Huevo</li>
+              <li>Menu</li>
+              <li>Menu</li>
+              <li>Menu</li>
               <li>Menu</li>
             </ul>
           </div>
