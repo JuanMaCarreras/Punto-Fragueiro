@@ -2,7 +2,7 @@ function Menu () {
   return (
     <>
       <section className=''>
-        <article className='h-screen bg-menuBackground '>
+        <article className='bg-menuBackground bg-no-repeat h-screen '>
           <h3>Menu</h3>
           <h4>Pizzas</h4>
           <div>
