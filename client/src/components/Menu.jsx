@@ -1,4 +1,4 @@
-import Pizza from "./menu components/Pizza"
+import Pizza from "./menuComponents/Pizza"
 
 function Menu () {
   return (
