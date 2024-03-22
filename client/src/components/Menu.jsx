@@ -15,7 +15,7 @@ function Menu () {
             </ul>
           </nav>
         </aside>
-        <div className="">
+        <div className='w-full ml-32 border border-red-600'>
           <Pizza />
         </div>
       </section>
