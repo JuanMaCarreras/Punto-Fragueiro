@@ -3,7 +3,7 @@ const Api = [
     id: 'Pizza',
     title: 'Nuestra Pizzas de Masa casera a la piedra',
     subTitle: null,
-    list: 'Muzzarella', 'Especial', 'Especial con anchoas', 'Especial con huevo', 'Especial napolitana', 'Especial palmitos', 'Especial Punto fragueiro', 'Roquefort', 'Fugazza', 'Ananá', '4 quesos', 'Rúcula', 'Calabresa']
+    list: ['Muzzarella', 'Especial', 'Especial con anchoas', 'Especial con huevo', 'Especial napolitana', 'Especial palmitos', 'Especial Punto fragueiro', 'Roquefort', 'Fugazza', 'Ananá', '4 quesos', 'Rúcula', 'Calabresa']
   },
   {
     id: 'Lomitos',
@@ -12,7 +12,16 @@ const Api = [
     list: ['Lomo de ternera', 'Lomo de pollo', 'Lomo XL', 'Lomo roquefort']
   },
   {
-    id: 'Hamburguesas'
+    id: 'Hamburguesas',
+    title: 'Hamburguesa con papas fritas',
+    subTitle: 'Medallón de carne con tomate, lechuga, jamón, queso chedar y mayonesa casera en pan con sésamo. Con papas fritas',
+    list: ['Con 1, 2 ó 3 medallones de carne!!']
+  },
+  {
+    id: 'Empanadas',
+    title: 'Empanadas al horno ',
+    subTitle: null,
+    list: ['Arabes', 'Criollas saladas', 'Criollas dulces', 'Jamón y queso']
   }
 ]
 
