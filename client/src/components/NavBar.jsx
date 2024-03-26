@@ -1,5 +1,6 @@
 import Logo from '../assets/logo.png'
 import { BsWhatsapp } from 'react-icons/bs'
+import { MdOutlineAccessTime } from "react-icons/md"
 
 function NavBar () {
   return (
@@ -23,8 +24,10 @@ function NavBar () {
 
         <nav className=''>
           <ul className='flex   text-white space-x-6 '>
-            <li>
-              Horarios
+            <li className='flex'>
+            <MdOutlineAccessTime 
+             className=' h-6 w-6 mr-1'
+            /> Horarios
             </li>
             <li>
               <a href='https://api.whatsapp.com/send?phone=543514086715&amp;text=HOLA!%20quiero%20hacer%20un%20pedido' title='Mensaje de whatsapp' class='btn ' target='_blank' rel='noreferrer'><i class='fab fa-whatsapp' />
