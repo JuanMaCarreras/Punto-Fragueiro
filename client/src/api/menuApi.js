@@ -7,7 +7,7 @@ const Api = [
   },
   {
     id: 'Lomitos',
-    title: '',
+    title: 'Lomitos con papas fritas',
     subTitle: 'Bife de ternera con tomate, huevo, lechuga, jamón, queso y mayonesa casera en pan de lomo. Con papas fritas',
     list: ['Lomo de ternera', 'Lomo de pollo', 'Lomo XL', 'Lomo roquefort']
   },
