@@ -22,6 +22,12 @@ const Api = [
     title: 'Empanadas al horno ',
     subTitle: null,
     list: ['Arabes', 'Criollas saladas', 'Criollas dulces', 'Jamón y queso']
+  },
+  {
+    id: 'Sandwich de milanesa',
+    title: 'Sandwich de milanesa ',
+    subTitle: ' Milanesa con tomate, lechuga, huevo, jamón, queso y mayonesa casera en pan especial para Sandwich. Con papas fritas',
+    list: null
   }
 ]
 
