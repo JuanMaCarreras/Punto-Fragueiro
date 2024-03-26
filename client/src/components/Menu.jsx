@@ -3,7 +3,7 @@ import Pizza from "./menuComponents/Pizza"
 function Menu () {
   return (
     <>
-      <section className='flex  justify-start bg-menuBackground h-screen py-28 px-11'>
+      <section className='flex  justify-start bg-menuBackground h-screen py-28 px-16'>
         <aside className='border border-red-500 '>
           <nav className='px-10 py-8 '>
             <ul className='text-white py-8 [&>li]:text-3xl [&>li]:pb-5 '>
@@ -15,7 +15,7 @@ function Menu () {
             </ul>
           </nav>
         </aside>
-        <div className='w-full ml-32 border border-red-600'>
+        <div className='w-full ml-24 border border-red-600'>
           <Pizza />
         </div>
       </section>
