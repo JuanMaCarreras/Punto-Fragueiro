@@ -1,17 +1,18 @@
 import Api from "../../api/menuApi"
 
-function MenuList ({ categoryData }) {
+function MenuList ({ categoryId }) {
+
+  const categoryData = Api.find(item => item.id === categoryId);
+
 
   return (
     <>
-      {/* {
-        findId.map(index => (
-            <div>
-              <h4>{index.title}</h4>
-            </div>
-        ))
-      } */}
-    </>
+    {categoryData && ( 
+      <div>
+        <h4>{categoryData.title}</h4>
+      </div>
+    )}
+  </>
   )
 }
 
