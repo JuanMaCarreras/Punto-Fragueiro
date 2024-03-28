@@ -1,9 +1,16 @@
 import Api from "../../api/menuApi"
 
-function MenuList() {
+function MenuList ({ categoryData }) {
+
   return (
     <>
-        
+      {/* {
+        findId.map(index => (
+            <div>
+              <h4>{index.title}</h4>
+            </div>
+        ))
+      } */}
     </>
   )
 }
