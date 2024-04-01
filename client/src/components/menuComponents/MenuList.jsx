@@ -6,14 +6,14 @@ function MenuList ({ categoryId }) {
   return (
     <>
       {categoryData && (
-        <article className=' border border-green-600 my-11'>
-          <h4 className=' flex justify-center text-3xl pb-8 text-white'>{categoryData.title}</h4>
+        <article className='my-11'>
+          <h4 className='px-9 text-3xl pb-8 text-white'>{categoryData.title}</h4>
           <p className='text-white'>{categoryData.subTitle}</p>
           <div className=' mt-5'>
-            <ul className='ml-11 list-disc grid grid-cols-2 [&>li]:text-white'>
+            <ul className='ml-11 list-disc grid grid-cols-2 gap-y-2 [&>li]:text-white'>
               {
-              categoryData.list.map(item => (
-                <li key={item}>{item}</li>
+              categoryData.list.map((item, index) => (
+                <li key={index}>{item}</li>
               ))
               }
             </ul>
