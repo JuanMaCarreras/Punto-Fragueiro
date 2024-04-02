@@ -19,7 +19,7 @@ function Menu () {
                 Api.map((item, index) => (
                   <li key={index}>
                     <button
-                      className={idList === item.id ? 'text-orange translate-x-3' : 'text-white  transition delay-150 hover:translate-x-3 hover:text-orage'}
+                      className={idList === item.id ? 'text-orange translate-x-3' : 'text-white  transition delay-150 hover:translate-x-3 hover:text-orange'}
                       onClick={() => handlerItemClick(item.id)}
                     >{item.id}
                     </button>
