@@ -1,8 +1,8 @@
 const Api = [
   {
     id: 'Pizza',
-    title: 'Nuestra Pizzas de Masa casera a la piedra',
-    subTitle: null,
+    title: 'Pizzas',
+    subTitle: 'Nuestra Pizzas de Masa casera a la piedra',
     list: ['Muzzarella', 'Especial', 'Especial con anchoas', 'Especial con huevo', 'Especial napolitana', 'Especial palmitos', 'Especial Punto fragueiro', 'Roquefort', 'Fugazza', 'Ananá', '4 quesos', 'Rúcula', 'Calabresa']
   },
   {
