@@ -13,7 +13,7 @@ function Menu () {
   return (
     <>
       <section className='flex  justify-start bg-menuBackground h-screen py-28 px-16'>
-        <aside className='border-l-2 border-r-2   '>
+        <aside className='border-l-[1px] border-r-[1px]   '>
           <nav className='px-20 py-8 '>
             <ul className='flex-col justify-start text-white py-8  [&>li]:text-3xl [&>li]:pb-5 '>
               {
@@ -26,7 +26,7 @@ function Menu () {
             </ul>
           </nav>
         </aside>
-        <div className='w-full ml-24  '>
+        <div className='w-full ml-20  '>
 
           <MenuList categoryId={idList} />
 
