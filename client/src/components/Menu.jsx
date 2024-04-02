@@ -13,12 +13,12 @@ function Menu () {
   return (
     <>
       <section className='flex  justify-start bg-menuBackground h-screen py-28 px-16'>
-        <aside className=' '>
-          <nav className='px-10 py-8 '>
+        <aside className='border-l-2 border-r-2   '>
+          <nav className='px-20 py-8 '>
             <ul className='flex-col justify-start text-white py-8  [&>li]:text-3xl [&>li]:pb-5 '>
               {
-                Api.map(item => (
-                  <li key={item.id}>
+                Api.map((item, index) => (
+                  <li key={index}>
                     <button onClick={() => handlerItemClick(item.id)}>{item.id}</button>
                   </li>
                 ))
@@ -26,7 +26,7 @@ function Menu () {
             </ul>
           </nav>
         </aside>
-        <div className='w-full ml-24 border border-red-600'>
+        <div className='w-full ml-24  '>
 
           <MenuList categoryId={idList} />
 
