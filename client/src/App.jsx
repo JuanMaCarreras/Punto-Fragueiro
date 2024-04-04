@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar'
-// import Home from './components/Home'
+import Home from './components/Home'
 import Menu from './components/Menu'
 
 function App () {
@@ -8,7 +8,7 @@ function App () {
       <NavBar />
       {/* <Home /> */}
       <Menu />
-      {/* <Home /> */}
+      <Home />
     </>
   )
 }
