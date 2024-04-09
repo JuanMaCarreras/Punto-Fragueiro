@@ -19,17 +19,32 @@ function NavBar () {
 
         <nav className='mr-[-50px]'>
           <ul className='flex  text-white space-x-8 '>
-            <li className='flex items-center font-semibold'>
-              <RiHome2Line className=' h-5 w-5 mr-1' />
-              Inicio
+            <li>
+              <a
+                href='#Inicio'
+                className='flex items-center  font-semibold'
+              >
+                <RiHome2Line className=' h-5 w-5 mr-1' />
+                Inicio
+              </a>
             </li>
-            <li className='flex items-center  font-semibold'>
-              <GiKnifeFork className=' h-4 w-4 mr-1' />
-              Menú
+            <li>
+              <a
+                href='#Menu'
+                className='flex items-center  font-semibold'
+              >
+                <GiKnifeFork className=' h-4 w-4 mr-1' />
+                Menú
+              </a>
             </li>
-            <li className='flex items-center  font-semibold'>
-              <GoLocation className=' h-5 w-5 mr-1 mb-1' />
-              Ubicación
+            <li>
+              <a
+                href='#Menu'
+                className='flex items-center  font-semibold'
+              >
+                <GoLocation className=' h-5 w-5 mr-1 mb-1' />
+                Ubicación
+              </a>
             </li>
           </ul>
         </nav>
