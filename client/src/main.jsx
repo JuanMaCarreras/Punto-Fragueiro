@@ -6,6 +6,7 @@ import { StrictMode } from 'react'
 const root = createRoot(document.getElementById('app'))
 
 root.render(
+  // quitar StrictMode
   <StrictMode>
     <App />
   </StrictMode>
