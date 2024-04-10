@@ -22,7 +22,7 @@ function NavBar () {
             <li>
               <a
                 href='#Inicio'
-                className='flex items-center  font-semibold'
+                className='flex items-center  font-semibold transition delay-100 hover:text-orange '
               >
                 <RiHome2Line className=' h-5 w-5 mr-1' />
                 Inicio
@@ -31,7 +31,7 @@ function NavBar () {
             <li>
               <a
                 href='#Menu'
-                className='flex items-center  font-semibold'
+                className='flex items-center  font-semibold  transition delay-100 hover:text-orange'
               >
                 <GiKnifeFork className=' h-4 w-4 mr-1' />
                 Menú
@@ -40,7 +40,7 @@ function NavBar () {
             <li>
               <a
                 href='#Menu'
-                className='flex items-center  font-semibold'
+                className='flex items-center  font-semibold  transition delay-200 hover:text-orange'
               >
                 <GoLocation className=' h-5 w-5 mr-1 mb-1' />
                 Ubicación
@@ -59,7 +59,7 @@ function NavBar () {
             <li className='flex items-center'>
               <a href='https://api.whatsapp.com/send?phone=543514086715&amp;text=HOLA!%20quiero%20hacer%20un%20pedido' title='Mensaje de whatsapp' class='btn ' target='_blank' rel='noreferrer'><i class='fab fa-whatsapp' />
                 <BsWhatsapp
-                  className=' h-6 w-6 hover:text-green-400 transition-colors duration-200 delay-200'
+                  className=' h-6 w-6 hover:text-green-400 transition-colors delay-200'
                 />
               </a>
             </li>
