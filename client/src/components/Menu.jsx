@@ -13,10 +13,10 @@ function Menu () {
     <>
       <section
         id='Menu'
-        className='flex  justify-start bg-menuBackground h-screen py-32 px-16'
+        className='flex  justify-start bg-menuBackground h-screen py-32 px-11'
       >
         <aside className='border-l-[1px] border-r-[1px]   '>
-          <nav className='pl-20 pr-32 py-8 '>
+          <nav className='pl-16 pr-28 py-8 '>
             <ul className='flex-col justify-start text-white py-8  [&>li]:text-3xl [&>li]:pb-5 '>
               {
                 Api.map((item, index) => (
