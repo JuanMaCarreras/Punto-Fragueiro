@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Modal from 'react-modal'
 
-Modal.setAppElement('#root')
+Modal.setAppElement('#app')
 
 function ServiceHoursModal () {
   const [modalIsOpen, setModalIsOpen] = useState()
