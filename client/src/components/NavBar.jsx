@@ -4,6 +4,7 @@ import { GiKnifeFork } from 'react-icons/gi'
 import { RiHome2Line } from 'react-icons/ri'
 import { GoLocation } from 'react-icons/go'
 import { IoMdTime } from 'react-icons/io'
+import ServiceHoursModal from './ServiceHoursModal'
 
 function NavBar () {
   return (
@@ -54,7 +55,7 @@ function NavBar () {
             <li className='flex items-center  font-semibold'>
               <IoMdTime
                 className=' h-6 w-6 mr-1'
-              /> Horarios
+              /> <ServiceHoursModal />
             </li>
             <li className='flex items-center'>
               <a href='https://api.whatsapp.com/send?phone=543514086715&amp;text=HOLA!%20quiero%20hacer%20un%20pedido' title='Mensaje de whatsapp' class='btn ' target='_blank' rel='noreferrer'><i class='fab fa-whatsapp' />
