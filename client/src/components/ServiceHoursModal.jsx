@@ -24,9 +24,9 @@ function ServiceHoursModal () {
         shouldCloseOnOverlayClick
         contentLabel='Ejemplo de Modal'
       >
+        <button onClick={closeModal} className='absolute top-0 right-0 mr-5 mt-3 text-gray-600 hover:text-gray-800 text-3xl'>&times;</button>
         <h2>Conoce Nuestros  Horarios</h2>
         <p>Este es un ejemplo de modal en React.</p>
-        <button onClick={closeModal}>Cerrar Modal</button>
 
       </Modal>
 
