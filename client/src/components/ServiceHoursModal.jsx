@@ -11,7 +11,7 @@ function ServiceHoursModal () {
   }
 
   const closeModal = () => {
-    setModalIsOpen(true)
+    setModalIsOpen(false)
   }
 
   return (
@@ -21,6 +21,7 @@ function ServiceHoursModal () {
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
+        shouldCloseOnOverlayClick
         contentLabel='Ejemplo de Modal'
       >
         <h2>Ejemplo de Modal</h2>
