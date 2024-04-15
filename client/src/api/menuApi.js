@@ -45,7 +45,24 @@ const Api = [
         ingredients: 'Salsa, muzzarella, jamón, champignon, cebolla de verdeo salteada y aceitunas.'
       },
       {
-
+        name: 'ESPECIAL PUNTO FRAGUEIRO',
+        ingredients: '1/2 Roquefort y 1/2 Champignon.'
+      },
+      {
+        name: 'PIZZA ANANÁ',
+        ingredients: 'Salsa, muzzarella, jamón, ananá, orégano y aceitunas.'
+      },
+      {
+        name: '4 QUESOS',
+        ingredients: 'Salsa, muzzarella, roquefort, provolone, parmesano, orégano y aceitunas.'
+      },
+      {
+        name: 'CALABRESA',
+        ingredients: 'Salsa, muzzarella, salame, orégano y aceitunas.'
+      },
+      {
+        name: 'DOBLE MUZZA ',
+        ingredients: 'Salsa, doble muzzarella, orégano y aceitunas.'
       }
     ]
   },
