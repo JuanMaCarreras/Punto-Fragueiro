@@ -15,6 +15,37 @@ const Api = [
       {
         name: 'ESPECIAL CON ANCHOAS',
         ingredients: 'Salsa, muzzarella, jamón, anchoas, orégano y aceitunas.'
+      },
+      {
+        name: 'ESPECIAL CON HUEVO',
+        ingredients: 'Salsa, muzzarella, jamón, huevo rallado, orégano y aceitunas.'
+      },
+      {
+        name: 'ESPECIAL NAPOLITANA',
+        ingredients: 'Salsa, muzzarella, tomate, jamón, orégano y aceitunas.'
+      },
+      {
+        name: 'ROQUEFORT',
+        ingredients: 'Salsa, muzzarella, roquefort, jamón, orégano y aceitunas.'
+      },
+      {
+        name: 'FUGAZZA',
+        ingredients: 'Salsa, muzzarella, jamón, cebolla salteada, orégano y aceitunas.'
+      },
+      {
+        name: 'ESPECIAL PALMITOS',
+        ingredients: 'Salsa, muzzarella, jamón, palmitos, salsa golf, y aceitunas.'
+      },
+      {
+        name: 'RÚCULA',
+        ingredients: 'Salsa, muzzarella, rúcula, parmesano, jamón crudo, aceite de oliva, orégano y aceitunas'
+      },
+      {
+        name: 'ESPECIAL CHAMPIGNON',
+        ingredients: 'Salsa, muzzarella, jamón, champignon, cebolla de verdeo salteada y aceitunas.'
+      },
+      {
+
       }
     ]
   },
