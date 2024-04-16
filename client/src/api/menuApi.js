@@ -70,13 +70,39 @@ const Api = [
     id: 'Lomitos',
     title: 'Lomitos con papas fritas',
     subTitle: 'Bife de ternera con tomate, huevo, lechuga, jamón, queso y mayonesa casera en pan de lomo. Con papas fritas',
-    items: ['Lomo de ternera', 'Lomo de pollo', 'Lomo XL', 'Lomo roquefort']
+    items: [
+      {
+        name: 'LOMO POLLO',
+        ingredients: 'Pollo, queso, lechuga, tomate, mayonesa casera y papas fritas.'
+      },
+      {
+        name: 'LOMO TRADICIONAL',
+        ingredients: 'Bife de carne, mayonesa casera, jamón, queso, lechuga, tomate, huevo y papas fritas.'
+      },
+      {
+        name: 'LOMO ROQUEFORT'
+      },
+      {
+        name: 'LOMO PIZZAGRANDE'
+      },
+      {
+        name: '1/2 LOMO PIZZA'
+      }
+    ]
   },
   {
     id: 'Hamburguesas',
     title: 'Hamburguesa con papas fritas',
     subTitle: 'Medallón de carne con tomate, lechuga, jamón, queso chedar y mayonesa casera en pan con sésamo. Con papas fritas',
-    items: ['Con 1, 2 ó 3 medallones de carne!!']
+    items: [
+      {
+        name: 'SIMPLE, DOBLE, TRIPLE'
+      },
+      {
+        name: 'HAMBURLOMO COMPLETO',
+        ingredients: 'Carne, mayonesa casera jamón, queso, lechuga, tomate, huevo y papas fritas.'
+      }
+    ]
   },
   {
     id: 'Empanadas',
