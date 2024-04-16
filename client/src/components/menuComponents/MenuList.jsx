@@ -20,7 +20,7 @@ function MenuList ({ categoryId }) {
           <div className='mt-11'>
             <ul className='ml-11 list-disc grid grid-cols-2 gap-y-2 [&>li]:text-white'>
               {
-              categoryData && categoryData.list.map((item, index) => (
+              categoryData && categoryData.items.map((item, index) => (
                 <li key={index}>{item}</li>
               ))
               }
