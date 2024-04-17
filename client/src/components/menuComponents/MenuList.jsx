@@ -18,13 +18,17 @@ function MenuList ({ categoryId }) {
           }
 
           <div className='mt-11'>
-            <ul className='ml-11 list-disc grid grid-cols-2 gap-y-2 [&>li]:text-white'>
-              {
-              categoryData && categoryData.items.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))
+            {
+                categoryData && categoryData.items.map((item, index) => (
+                  <dl
+                    key={item}
+                    className='ml-11 list-disc grid grid-cols-2 gap-y-2 [&>li]:text-white'
+                  >
+                    <dt>{index.name}</dt>
+                    <dd>{index.ingredients}</dd>
+                  </dl>
+                ))
               }
-            </ul>
           </div>
         </article>
       )}
