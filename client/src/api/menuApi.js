@@ -114,7 +114,12 @@ const Api = [
     id: 'Sandwiches',
     title: 'Sandwich de milanesa ',
     subTitle: ' Milanesa con tomate, lechuga, huevo, jamón, queso y mayonesa casera en pan especial para Sandwich. Con papas fritas',
-    items: 'Colocar un item'
+    items: [
+      {
+        name: 'SAND. MILA COMPLETO',
+        ingredients: 'Carne, mayonesa casera, jamón, queso, lechuga, tomate, huevo y papas fritas.'
+      }
+    ]
   }
 ]
 
