@@ -114,7 +114,7 @@ const Api = [
     id: 'Sandwiches',
     title: 'Sandwich de milanesa ',
     subTitle: ' Milanesa con tomate, lechuga, huevo, jamón, queso y mayonesa casera en pan especial para Sandwich. Con papas fritas',
-    items: 'Un Alto Sandwich'
+    items: 'Colocar un item'
   }
 ]
 
