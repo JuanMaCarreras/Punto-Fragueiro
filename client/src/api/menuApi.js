@@ -69,7 +69,6 @@ const Api = [
   {
     id: 'Lomitos',
     title: 'Lomitos con papas fritas',
-    subTitle: 'Bife de ternera con tomate, huevo, lechuga, jamón, queso y mayonesa casera en pan de lomo. Con papas fritas',
     items: [
       {
         name: 'LOMO POLLO',
@@ -93,10 +92,10 @@ const Api = [
   {
     id: 'Hamburguesas',
     title: 'Hamburguesa con papas fritas',
-    subTitle: 'Medallón de carne con tomate, lechuga, jamón, queso chedar y mayonesa casera en pan con sésamo. Con papas fritas',
     items: [
       {
-        name: 'SIMPLE, DOBLE, TRIPLE'
+        name: 'SIMPLE, DOBLE, TRIPLE',
+        ingredients: 'Medallón de carne con tomate, lechuga, jamón, queso chedar y mayonesa casera en pan con sésamo. Con papas fritas'
       },
       {
         name: 'HAMBURLOMO COMPLETO',
