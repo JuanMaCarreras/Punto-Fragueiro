@@ -25,7 +25,7 @@ function ServiceHoursModal () {
         contentLabel='Ejemplo de Modal'
       >
         <button onClick={closeModal} className='absolute top-0 right-0 mr-5 mt-3 text-gray-600 hover:text-gray-800 text-3xl'>&times;</button>
-        <div>
+        <div className='bg-red-500 text-4xl'>
           <h2>Conoce Nuestros  Horarios</h2>
         </div>
         <p>Martes a sábados: 11.30hs a 14.30hs y 19.30hs a 23.30hs
